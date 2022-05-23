@@ -8,6 +8,8 @@ import BackButton from "./BackButton";
 import ForwardButton from "./ForwardButton";
 import GoHomeButton from "./GoHomeButton";
 import "./App.css";
+import PostList from "./PostList";
+import User from "./User";
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
           <About />
         </Route>
         <Route path="/users/:userId">
-          <UserProfile />
+          <User />
         </Route>
         <Route>
           <NoMatch />
